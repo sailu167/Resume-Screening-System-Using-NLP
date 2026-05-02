@@ -1,33 +1,40 @@
-<img width="1916" height="983" alt="find Jobs" src="https://github.com/user-attachments/assets/9243784b-d9fb-4113-b026-4962abbecca2" />Resume Screening System Using NLP
-👨‍💻 Developed By
+# Resume Screening System Using NLP
+## 👨‍💻 Developed By
 Bhatraju Sailu (Team Lead)
-📌 Project Description
+## 📌Project Description
 Developed an automated Resume Screening System using NLP and Machine Learning to extract key skills, analyze resumes, and generate ATS scores for candidate ranking.
-🚀 Features
+## 🚀Features
 Resume Parsing
 Skill Extraction
 Machine Learning Based Ranking
 ATS Score Prediction (0–100)
 Candidate Classification (Standard / Competitive / Premium)
-🛠️ Technologies Used
+## 🛠️Technologies Used
 Python
 Scikit-learn
 XGBoost
 NLP (NLTK / spaCy)
 Pandas, NumPy
 React (Frontend)
-⚙️ System Modules
+# 📂 Project Structure
+frontend/
+backend/
+dataset/
+ml service
+model/
+app.py
+## System Modules
 Resume Parser
 NLP Matching Engine
 Ranking System
 Admin Dashboard
-▶️ How to Run
+## ▶️How to Run
 Install dependencies
 pip install -r requirements.txt
 Run backend
 python app.py
 Open frontend and upload resume
-📊 Output
+## 📊 Output
 Matching Score
 ## Canditade Login
 ![Uploading Login Page.png…](image1.png)
@@ -56,3 +63,5 @@ Matching Score
 ![Uploading Screenshot 2026-05-02 172338.png…](image21.png)
 ![Uploading Screenshot 2026-05-02 172412.png…](image22.png)
 MIT License
+## 👨‍💻 Author
+BHATRAJU SAILU
