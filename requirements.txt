@@ -1,8 +1,14 @@
-scikit-learn
-pandas
 joblib
 flask
 flask-cors
 python-docx
 PyPDF2
-
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+xgboost
+nltk
+spacy
+joblib
