@@ -2,7 +2,7 @@
 ## 👨‍💻 Developed By
 Bhatraju Sailu (Team Lead)
 ## 📌Project Description
-Developed an automated Resume Screening System using NLP and Machine Learning to extract key skills, analyze resumes, and generate ATS scores for candidate ranking.
+Developed an automated Resume Screening System using NLP and Machine Learning to extract key skills,experience,qualification, analyze resumes, and generate ATS scores for candidate ranking.
 ## 🚀Features
 - Resume Parsing
 - Skill Extraction
@@ -16,6 +16,9 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - NLP (NLTK / spaCy)
 - Pandas, NumPy
 - React (Frontend)
+- Node js(backend)
+- PostgreSQL(data base)
+- Cursor(Development Environment)
 # 📂 Project Structure
 - frontend/
 - backend/
@@ -27,15 +30,22 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - Resume Parser
 - NLP Matching Engine
 - Ranking System
+- Candidate Dashboard
+- Recruiter Dashboard
 - Admin Dashboard
 ## ▶️How to Run
-- Install dependencies
+1. Install dependencies
 - pip install -r requirements.txt
+2. Run the project:
 - Run backend
+- Run Frontend
+- Run ml-service
 - python app.py
 - Open frontend and upload resume
+3. Upload resume and view results
 ## 📊 Output
-- Matching Score
+- Ranking Score (0–100)
+- Candidate Tier (Standard / Competitive / Premium)
 ## Canditade Login
 - ![Uploading Login Page.png…](image1.png)
 - ![Uploading Candidate Dashboard.png…](image2.png)
@@ -53,6 +63,10 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - ![Uploading User Management.png…](image12.png)
 - ![Uploading Model Management.png…](image13.png)
 - ![Uploading System Analytics.png…](image14.png)
+## 📚 Future Enhancements
+- AI-based recommendation system
+- Real-time job matching
+- Web deployment
  ## License
 - ![Uploading Screenshot 2026-05-02 170113.png…](image15.png)
 - ![Uploading Screenshot 2026-05-02 172013.png…](image16.png)
