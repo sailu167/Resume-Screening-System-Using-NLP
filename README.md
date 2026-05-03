@@ -57,17 +57,31 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - ![Resume](Candidate/resume.png)
 
 - ![Applications](Candidate/applications.png)
+Markdown
 ## Recruiter Login
-- ![Uploading Recruiter Dashboard.png…](image6.png)
-- ![Uploading Job Posting.png…](image7.png)
-- ![Uploading All Resumes.png…](image8.png)
-- ![Uploading Ranking.png…](image9.png)
-- ![Uploading Analytics.png…](image10.png)
+- ![Recruiter Dashboard](Recruiter/Recruiterdashboard.png)
+
+-  ![Job Posting](Recruiter/Jobposting.png)
+
+- ![All Resumes](Recruiter/AllResumes.png)
+
+- ![Ranking](Recruiter/Ranking.png)
+
+- ![Analytics](Recruiter/Analytics.png)
+
+Markdown
 ## Admin Login
-- ![Uploading Admin Dashboard.png…](image11.png)
-- ![Uploading User Management.png…](image12.png)
-- ![Uploading Model Management.png…](image13.png)
-- ![Uploading System Analytics.png…](image14.png)
+
+![Admin Dashboard](Admin/Admindashboard.png)
+
+![Admin Login](Admin/Adminloginpage.png)
+
+![Model Management](Admin/Modelmanagement.png)
+
+![System Analytics](Admin/Systemanalytics.png)
+
+![User Management](Admin/Usermanagement.png)
+
 ## 📚 Future Enhancements
 - AI-based recommendation system
 - Real-time job matching
