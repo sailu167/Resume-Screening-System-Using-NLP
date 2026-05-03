@@ -78,20 +78,20 @@ Markdown
 
 Markdown
 ## Admin Login
+- ## Admin Login Page
+![Admin Login](Admin/Adminloginpage.png)
+
 - ## Admin Dashboard
 ![Admin Dashboard](Admin/Admindashboard.png)
 
-- ## Admin Login Page
-![Admin Login](Admin/Adminloginpage.png)
+- ## User Management
+![User Management](Admin/Usermanagement.png)
 
 - ## Model Management
 ![Model Management](Admin/Modelmanagement.png)
 
 - ## System analytics
 ![System Analytics](Admin/Systemanalytics.png)
-
-- ## User Management
-![User Management](Admin/Usermanagement.png)
 
 ## 📚 Future Enhancements
 - AI-based recommendation system
