@@ -48,11 +48,11 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - Candidate Tier (Standard / Competitive / Premium)
 ## 📸 Screenshots
 ### Candidate Login
-- ![Login](candidate/login.png)
-- ![Dashboard](candidate/dashboard.png)
-- ![Jobs](candidate/jobs.png)
-- ![Resume](candidate/resume.png)
-- ![Applications](candidate/applications.png)
+- ![Login](Candidate/login.png)
+- ![Dashboard](Candidate/dashboard.png)
+- ![Jobs](Candidate/jobs.png)
+- ![Resume](Candidate/resume.png)
+- ![Applications](Candidate/applications.png)
 ## Recruiter Login
 - ![Uploading Recruiter Dashboard.png…](image6.png)
 - ![Uploading Job Posting.png…](image7.png)
