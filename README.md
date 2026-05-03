@@ -64,10 +64,8 @@ cd ml-service
 pip install -r requirements.txt
 ### Step 6: Setup Antigravity Service
 ➡️ Open new terminal and run:
-Bash
 cd antigravity-service
 ➡️ Build project:
-Bash
 mvn clean install
 ## 👥 User Roles
 
@@ -128,7 +126,7 @@ python app.py
 - Candidate Tier (Standard / Competitive / Premium)
 
 🔰 ✅ Candidate Login Module
-Markdown
+
 ## 👤 Candidate Module
 
 The Candidate module allows job seekers to interact with the system and apply for jobs efficiently.
@@ -176,7 +174,7 @@ This page shows the list of jobs the candidate has applied for, along with appli
 ![Applications](Candidate/applications.png)
 
 🔰 ✅ Recruiter Login Module
-Markdown
+
 ## 🧑‍💼 Recruiter Module
 
 The Recruiter module enables employers to manage job postings and screen candidates effectively.
@@ -192,7 +190,6 @@ The Recruiter module enables employers to manage job postings and screen candida
 ### Functionality:
 Recruiters can post job requirements and view candidate applications. The system uses Machine Learning and NLP to rank candidates based on their resumes. Recruiters can easily identify top candidates using ATS scores and filtering options.
 
-Markdown
 ## 🧑‍💼 Recruiter Login
 
 The Recruiter Login allows recruiters to securely access the system and manage the hiring process efficiently.
@@ -228,7 +225,7 @@ This page provides insights and statistics related to recruitment, such as candi
 ![Analytics](Recruiter/Analytics.png)
 
 🔰 ✅ Admin Login Module
-Markdown
+
 ## 🛠️ Admin Module
 
 The Admin module provides full control over the system for managing users and system operations.
@@ -243,8 +240,6 @@ The Admin module provides full control over the system for managing users and sy
 ### Functionality:
 The admin oversees the entire system, manages users, monitors performance, and updates machine learning models. The admin ensures smooth functioning of the resume screening process and system security.
 
-Markdown
-Markdown
 ## 🛡️ Admin Login
 
 The Admin Login provides secure access to system-level controls and management features. It allows administrators to monitor and maintain the overall application.
@@ -279,8 +274,6 @@ Provides detailed insights into system usage, performance, and recruitment trend
 
 ![System Analytics](Admin/Systemanalytics.png)
 
-Markdown
-
 ## 📌 Conclusion
 This system reduces manual effort in resume screening and improves recruitment efficiency using NLP techniques.
 ## 🔍 Core Technology
@@ -308,7 +301,7 @@ The system uses Natural Language Processing (NLP) and Machine Learning algorithm
  ## 🏆 Achievements
 - Successfully developed as final year project  
 - Demonstrates real-world NLP application
-Markdown
+  
 ## 📄 License
 This project is licensed under the MIT License. 
 ## 📬 Contact
