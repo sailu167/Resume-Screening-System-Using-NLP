@@ -46,21 +46,7 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 ## 📊 Output
 - Ranking Score (0–100)
 - Candidate Tier (Standard / Competitive / Premium)
-## 📸 Screenshots
-### 1.Candidate Login
- ![Login](Candidate/login.png)
 
- ## 2.Candidate Dashboard
-![Dashboard](Candidate/dashboard.png)
-
-## 3.Candidate Jobs
-![Jobs](Candidate/jobs.png)
-
-## 4.Candidate Resumes
-![Resume](Candidate/resume.png)
-
-## 5.Candidate Applications
-![Applications](Candidate/applications.png)
 🔰 ✅ Candidate Login Module
 Markdown
 ## 👤 Candidate Module
@@ -77,23 +63,23 @@ The Candidate module allows job seekers to interact with the system and apply fo
 
 ### Functionality:
 Candidates can upload their resumes, and the system analyzes the content using NLP techniques to extract skills, education, and experience. Based on this data, the system matches candidates with suitable job roles and generates an ATS score.
-Markdown
-## Recruiter Login
 
-## 1.Recruiter Dashboard
-![Recruiter Dashboard](Recruiter/Recruiterdashboard.png)
+## 📸 Screenshots
+### 1.Candidate Login
+ ![Login](Candidate/login.png)
 
-## 2.Recruiter Job Postings
- ![Job Posting](Recruiter/Jobposting.png)
+ ## 2.Candidate Dashboard
+![Dashboard](Candidate/dashboard.png)
 
-## 3.Resumes
- ![All Resumes](Recruiter/AllResumes.png)
+## 3.Candidate Jobs
+![Jobs](Candidate/jobs.png)
 
-## 4.Ranking
-![Ranking](Recruiter/Ranking.png)
+## 4.Candidate Resumes
+![Resume](Candidate/resume.png)
 
-## 5.Analytics
-![Analytics](Recruiter/Analytics.png)
+## 5.Candidate Applications
+![Applications](Candidate/applications.png)
+
 🔰 ✅ Recruiter Login Module
 Markdown
 ## 🧑‍💼 Recruiter Module
@@ -112,21 +98,23 @@ The Recruiter module enables employers to manage job postings and screen candida
 Recruiters can post job requirements and view candidate applications. The system uses Machine Learning and NLP to rank candidates based on their resumes. Recruiters can easily identify top candidates using ATS scores and filtering options.
 
 Markdown
-## Admin Login
-## 1.Admin Login Page
-![Admin Login](Admin/Adminloginpage.png)
+## Recruiter Login
 
-## 2.Admin Dashboard
-![Admin Dashboard](Admin/Admindashboard.png)
+## 1.Recruiter Dashboard
+![Recruiter Dashboard](Recruiter/Recruiterdashboard.png)
 
-## 3.User Management
-![User Management](Admin/Usermanagement.png)
+## 2.Recruiter Job Postings
+ ![Job Posting](Recruiter/Jobposting.png)
 
-## 4.Model Management
-![Model Management](Admin/Modelmanagement.png)
+## 3.Resumes
+ ![All Resumes](Recruiter/AllResumes.png)
 
-## 5.System analytics
-![System Analytics](Admin/Systemanalytics.png)
+## 4.Ranking
+![Ranking](Recruiter/Ranking.png)
+
+## 5.Analytics
+![Analytics](Recruiter/Analytics.png)
+
 🔰 ✅ Admin Login Module
 Markdown
 ## 🛠️ Admin Module
@@ -142,6 +130,23 @@ The Admin module provides full control over the system for managing users and sy
 
 ### Functionality:
 The admin oversees the entire system, manages users, monitors performance, and updates machine learning models. The admin ensures smooth functioning of the resume screening process and system security.
+
+Markdown
+## Admin Login
+## 1.Admin Login Page
+![Admin Login](Admin/Adminloginpage.png)
+
+## 2.Admin Dashboard
+![Admin Dashboard](Admin/Admindashboard.png)
+
+## 3.User Management
+![User Management](Admin/Usermanagement.png)
+
+## 4.Model Management
+![Model Management](Admin/Modelmanagement.png)
+
+## 5.System analytics
+![System Analytics](Admin/Systemanalytics.png)
 
 Markdown
 ## 🔍 Core Technology
@@ -162,5 +167,5 @@ The system uses Natural Language Processing (NLP) and Machine Learning algorithm
 - ![Uploading Screenshot 2026-05-02 172338.png…](image21.png)
 - ![Uploading Screenshot 2026-05-02 172412.png…](image22.png)
 MIT License
-## 👨‍💻 Author
-BHATRAJU SAILU
+## 👨‍💻 Project Lead: Bhatraju sailu
+Developed a Resume Screening System using NLP (Data Science Domain)
