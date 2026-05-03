@@ -48,40 +48,49 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - Candidate Tier (Standard / Competitive / Premium)
 ## 📸 Screenshots
 ### Candidate Login
-- ![Login](Candidate/login.png)
+ ![Login](Candidate/login.png)
 
-## Candidate Dashboard
-- ![Dashboard](Candidate/dashboard.png)
+- ## Candidate Dashboard
+![Dashboard](Candidate/dashboard.png)
 
-## Candidate Jobpostings
-- ![Jobs](Candidate/jobs.png)
-## Candidate Resumes
-- ![Resume](Candidate/resume.png)
-## Candidate Applications
-- ![Applications](Candidate/applications.png)
+- ## Candidate Job Postings
+![Jobs](Candidate/jobs.png)
+- ## Candidate Resumes
+![Resume](Candidate/resume.png)
+- ## Candidate Applications
+![Applications](Candidate/applications.png)
 Markdown
 ## Recruiter Login
-- ![Recruiter Dashboard](Recruiter/Recruiterdashboard.png)
+- ## Recruiter Dashboard
+![Recruiter Dashboard](Recruiter/Recruiterdashboard.png)
 
--  ![Job Posting](Recruiter/Jobposting.png)
+- ## Recruiter Jobs
+ ![Job Posting](Recruiter/Jobposting.png)
 
-- ![All Resumes](Recruiter/AllResumes.png)
+- ## Resumes
+ ![All Resumes](Recruiter/AllResumes.png)
 
-- ![Ranking](Recruiter/Ranking.png)
+- ## Ranking
+![Ranking](Recruiter/Ranking.png)
 
-- ![Analytics](Recruiter/Analytics.png)
+- ## Analytics
+![Analytics](Recruiter/Analytics.png)
 
 Markdown
 ## Admin Login
-
+- ## Admin Dashboard
 ![Admin Dashboard](Admin/Admindashboard.png)
 
+- ## Admin Login Page
 ![Admin Login](Admin/Adminloginpage.png)
 
+- ## Model Management
 ![Model Management](Admin/Modelmanagement.png)
 
+- ## System analytics
 ![System Analytics](Admin/Systemanalytics.png)
 
+- ## User Management
 ![User Management](Admin/Usermanagement.png)
 
 ## 📚 Future Enhancements
