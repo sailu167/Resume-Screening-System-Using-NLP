@@ -49,13 +49,15 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 ## 📸 Screenshots
 ### Candidate Login
 - ![Login](Candidate/login.png)
-  
+
+## Candidate Dashboard
 - ![Dashboard](Candidate/dashboard.png)
 
+## Candidate Jobpostings
 - ![Jobs](Candidate/jobs.png)
-
+## Candidate Resumes
 - ![Resume](Candidate/resume.png)
-
+## Candidate Applications
 - ![Applications](Candidate/applications.png)
 Markdown
 ## Recruiter Login
