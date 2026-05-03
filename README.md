@@ -47,12 +47,8 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - Ranking Score (0–100)
 - Candidate Tier (Standard / Competitive / Premium)
 ### Canditade Login outputs
-![Login Page](Candidate login outputs/login Page.png)
-- Candidate Dashboard.png → dashboard.png
-- Login Page.png → login.png
-- My Applications.png → applications.png
-- Resume Upload.png → resume.png
-- find Jobs.png → jobs.png
+- ![Uploading image.png…]()
+
 ## Recruiter Login
 - ![Uploading Recruiter Dashboard.png…](image6.png)
 - ![Uploading Job Posting.png…](image7.png)
