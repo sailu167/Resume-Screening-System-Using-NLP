@@ -2,23 +2,56 @@
 ## 👨‍💻 Developed By
 Bhatraju Sailu (Team Lead)
 ## 📌Project Description
-Developed an automated Resume Screening System using NLP and Machine Learning to extract key skills,experience,qualification, analyze resumes, and generate ATS scores for candidate ranking.
+This project is developed to automate the resume screening process using Natural Language Processing (NLP). It helps recruiters efficiently filter and rank candidates based on job descriptions and skill matching.
 ## 🚀Features
 - Resume Parsing
 - Skill Extraction
 - Machine Learning Based Ranking
 - ATS Score Prediction (0–100)
 - Candidate Classification (Standard / Competitive / Premium)
-## 🛠️Technologies Used
+
+## 🛠️ Tech Stack
+
+- Frontend: React JS  
+- Backend: Node JS  
+- Database: PostgreSQL  
+- Domain: Data Science
 - Python
 - Scikit-learn
 - XGBoost
 - NLP (NLTK / spaCy)
 - Pandas, NumPy
-- React (Frontend)
-- Node js(backend)
-- PostgreSQL(data base)
-- Cursor(Development Environment)
+- Development Environment:Cursor
+
+  ## 👥 User Roles
+
+### 👤 Candidate
+- Register & Login  
+- Upload Resume  
+- View Job Matches  
+
+### 🧑‍💼 Recruiter
+- Post Job Requirements  
+- View Matched Candidates  
+- Download Resumes  
+
+### 🛡️ Admin
+- Manage Users  
+- Monitor System  
+- Control Data
+- 
+## 👨‍💻 Project Team
+- Project Lead:Bhatraju Sailu
+- Role:Project Lead handling Frontend (React JS), Backend (Node JS), Database (PostgreSQL), and NLP-based resume analysis
+### 🔹 Responsibilities
+- Lead the overall development of the Resume Screening System  
+- Designed and developed frontend using React JS  
+- Implemented backend APIs using Node JS  
+- Integrated PostgreSQL database for data storage  
+- Applied NLP techniques for resume parsing and skill extraction  
+- Developed resume-job matching and ranking logic  
+- Managed project workflow and coordinated with team members
+  
 # 📂 Project Structure
 - frontend/
 - backend/
@@ -33,6 +66,14 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - Candidate Dashboard
 - Recruiter Dashboard
 - Admin Dashboard
+
+## 📊 How It Works
+1. User uploads resume  
+2. NLP extracts important information  
+3. System compares with job description  
+4. Matching score is generated  
+5. Candidates are ranked
+
 ## ▶️How to Run
 1. Install dependencies
 - pip install -r requirements.txt
@@ -43,6 +84,12 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - python app.py
 - Open frontend and upload resume
 3. Upload resume and view results
+
+## 🎯 Future Scope
+- Improve accuracy using Machine Learning models  
+- Add AI-based recommendations  
+- Real-time job matching
+  
 ## 📊 Output
 - Ranking Score (0–100)
 - Candidate Tier (Standard / Competitive / Premium)
@@ -149,6 +196,9 @@ Markdown
 ![System Analytics](Admin/Systemanalytics.png)
 
 Markdown
+
+## 📌 Conclusion
+This system reduces manual effort in resume screening and improves recruitment efficiency using NLP techniques.
 ## 🔍 Core Technology
 
 The system uses Natural Language Processing (NLP) and Machine Learning algorithms such as TF-IDF and XGBoost to analyze resumes and generate ATS scores for candidate ranking.
