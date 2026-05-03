@@ -27,6 +27,26 @@ This project is developed to automate the resume screening process using Natural
 - Stopword Removal  
 - Lemmatization  
 - TF-IDF / Similarity Matching
+
+## 📊 Evaluation Metrics
+
+The system performance was evaluated based on resume-job matching accuracy and NLP-based skill extraction.
+
+- Accuracy of skill extraction
+- Model Accuracy: 99.48%  
+- Matching Efficiency: High relevance in candidate ranking  
+- Improved shortlisting accuracy compared to manual screening  
+- Resume-job matching score  
+- Precision and recall for candidate selection  
+- Ranking effectiveness
+- Note: Accuracy may vary depending on dataset and job requirements.
+
+## ⏱️ Performance
+
+- Fast resume processing using NLP  
+- Efficient candidate ranking system  
+- Handles multiple resumes simultaneously
+
 ## 📁 Project Structure
 
 - frontend/ → React JS code  
@@ -67,37 +87,7 @@ pip install -r requirements.txt
 cd antigravity-service
 ➡️ Build project:
 mvn clean install
-## 👥 User Roles
 
-### 👤 Candidate
-- Register & Login  
-- Upload Resume  
-- View Job Matches  
-
-### 🧑‍💼 Recruiter
-- Post Job Requirements  
-- View Matched Candidates  
-- Download Resumes  
-
-### 🛡️ Admin
-- Manage Users  
-- Monitor System  
-- Control Data
-
-## System Modules
-- Resume Parser
-- NLP Matching Engine
-- Ranking System
-- Candidate Dashboard
-- Recruiter Dashboard
-- Admin Dashboard
-
-## 📊 How It Works
-1. User uploads resume  
-2. NLP extracts important information  
-3. System compares with job description  
-4. Matching score is generated  
-5. Candidates are ranked
 # 🔷 ▶️ How to Run the Project
 ### Step 1: Start Backend
 ➡️ Open terminal:
@@ -116,14 +106,70 @@ python app.py
 ### Step 5: Open frontend
 ➡️ Upload resume and view results
 
-## 🎯 Future Scope
-- Improve accuracy using Machine Learning models  
-- Add AI-based recommendations  
-- Real-time job matching
-  
-## 📊 Output
-- Ranking Score (0–100)
-- Candidate Tier (Standard / Competitive / Premium)
+## 🔐 Security Features
+
+- User authentication using JWT  
+- Secure login for all roles  
+- Data protection for user information
+
+## 🧩 System Modules
+
+The system is divided into three main modules to handle different functionalities in the recruitment process:
+
+### 👤 Candidate Module
+This module allows candidates to interact with the system by creating an account, uploading resumes, and applying for jobs. It also enables candidates to view job matches and track their application status.
+
+### 🧑‍💼 Recruiter Module
+The recruiter module helps recruiters manage the hiring process. Recruiters can post job requirements, view uploaded resumes, analyze candidate profiles, and access ranked results based on skill matching.
+
+### 🛡️ Admin Module
+The admin module provides full control over the system. Administrators can manage users, monitor system performance, and handle NLP models to ensure smooth functioning of the application.
+
+## 👥 User Roles
+
+The system supports multiple user roles, each with specific responsibilities:
+
+### 👤 Candidate
+- Register and login to the system  
+- Upload resume  
+- View job matches  
+- Apply for jobs  
+- Track application status  
+
+### 🧑‍💼 Recruiter
+- Login to the system  
+- Post job requirements  
+- View candidate resumes  
+- Analyze ranked candidates  
+- Shortlist suitable candidates  
+
+### 🛡️ Admin
+- Manage user accounts  
+- Monitor system activities  
+- Manage NLP models  
+- Maintain system performance
+
+## ⚙️ How It Works
+
+The Resume Screening System follows a structured workflow to process resumes and match them with job requirements:
+
+### 🔹 Step 1: Resume Upload
+Candidates upload their resumes through the frontend interface.
+
+### 🔹 Step 2: Data Extraction
+The system uses NLP techniques to extract important information such as skills, education, and experience from the resumes.
+
+### 🔹 Step 3: Job Posting
+Recruiters create job descriptions by specifying required skills and qualifications.
+
+### 🔹 Step 4: Matching Process
+The system compares extracted resume data with job requirements using similarity algorithms (e.g., TF-IDF).
+
+### 🔹 Step 5: Candidate Ranking
+Candidates are ranked based on their relevance and matching score.
+
+### 🔹 Step 6: Result Display
+Recruiters can view ranked candidates, analyze profiles, and shortlist the best candidates for further selection.
 
 🔰 ✅ Candidate Login Module
 
@@ -274,16 +320,85 @@ Provides detailed insights into system usage, performance, and recruitment trend
 
 ![System Analytics](Admin/Systemanalytics.png)
 
+## 📤 Output
+
+The Resume Screening System successfully automates the process of analyzing and filtering resumes using NLP techniques.
+
+### 🔹 Key Outputs
+- Resumes are uploaded and processed automatically  
+- Relevant information such as skills, education, and experience is extracted  
+- Job descriptions are matched with candidate profiles  
+- Candidates are ranked based on similarity and relevance
+
+### 🔹 System Results
+- Reduces manual effort in resume screening  
+- Improves accuracy in candidate shortlisting  
+- Speeds up the recruitment process  
+
+### 🔹 Final Outcome
+The system provides an efficient and intelligent solution for identifying the most suitable candidates, helping recruiters make faster and better hiring decisions.
+
+## 🌟 Key Highlights
+
+- Automated resume screening using NLP techniques  
+- Intelligent candidate ranking system based on skill matching  
+- Full Stack implementation (React, Node.js, PostgreSQL)  
+- Integration of Machine Learning concepts for better accuracy  
+- Role-based system (Candidate, Recruiter, Admin)  
+- Reduces manual effort and improves efficiency in recruitment
+
+## 🚀 Deployment
+
+The system can be deployed using cloud platforms like AWS, Render, or Vercel for frontend and backend services.
+
+## 🚀 Future Scope
+
+- Enhance accuracy using advanced Machine Learning and Deep Learning models  
+- Add AI-based job recommendation system  
+- Integrate with real-time job portals (LinkedIn, Naukri, etc.)  
+- Improve user interface for better user experience  
+- Deploy the system on cloud platforms for scalability  
+- Add multilingual resume support
+
 ## 📌 Conclusion
-This system reduces manual effort in resume screening and improves recruitment efficiency using NLP techniques.
+
+The Resume Screening System using NLP effectively automates the recruitment process by analyzing resumes and matching them with job requirements. By leveraging Natural Language Processing techniques, the system improves the efficiency and accuracy of candidate selection.
+
+This project demonstrates a real-world application of Data Science and helps reduce manual effort while enabling faster and smarter hiring decisions.
+
 ## 🔍 Core Technology
 
 The system uses Natural Language Processing (NLP) and Machine Learning algorithms such as TF-IDF and XGBoost to analyze resumes and generate ATS scores for candidate ranking.
 
-## 📚 Future Enhancements
-- AI-based recommendation system
-- Real-time job matching
-- Web deployment
+## ❗ Challenges Faced
+
+During the development of this project, several challenges were encountered:
+
+- Handling resumes in different formats (PDF, DOCX) and extracting accurate text  
+- Improving the accuracy of NLP-based skill extraction and matching  
+- Integrating multiple technologies (React, Node.js, Python, Java) into a single system  
+- Managing communication between backend and ML services  
+- Ensuring proper data storage and retrieval using PostgreSQL  
+- Handling large amounts of resume data efficiently
+
+## 💡 Learnings
+
+This project provided valuable hands-on experience and key learnings:
+
+- Gained practical knowledge of Natural Language Processing (NLP) techniques  
+- Improved understanding of full stack development (Frontend, Backend, Database)  
+- Learned how to integrate multiple services (Node.js, Python, Java)  
+- Developed problem-solving and debugging skills  
+- Understood real-world challenges in recruitment automation  
+- Enhanced teamwork and project management skills as a Project Lead
+
+## 📚 References
+
+- NLP documentation  
+- React JS documentation  
+- Node.js documentation  
+- Research papers on resume screening
+  
 ## 👨‍💻 Project Team
 
 - Project Lead:Bhatraju Sailu
