@@ -1,14 +1,15 @@
-# Resume Screening System Using NLP
-## 👨‍💻 Developed By
-Bhatraju Sailu (Team Lead)
+# 📄 Resume Screening System using NLP
+
+🚀 Resume Screening System using NLP | Data Science Domain  
+👨‍💻 Project Lead: Bhatraju Sailu
 ## 📌Project Description
 This project is developed to automate the resume screening process using Natural Language Processing (NLP). It helps recruiters efficiently filter and rank candidates based on job descriptions and skill matching.
-## 🚀Features
-- Resume Parsing
-- Skill Extraction
-- Machine Learning Based Ranking
-- ATS Score Prediction (0–100)
-- Candidate Classification (Standard / Competitive / Premium)
+## 🚀 Features
+- 📂 Resume upload and parsing  
+- 🔍 NLP-based skill extraction  
+- 📊 Resume-job matching  
+- 📈 Candidate ranking system  
+- 👤 Role-based login (Candidate, Recruiter, Admin)  
 
 ## 🛠️ Tech Stack
 
@@ -16,14 +17,59 @@ This project is developed to automate the resume screening process using Natural
 - Backend: Node JS  
 - Database: PostgreSQL  
 - Domain: Data Science
-- Python
-- Scikit-learn
-- XGBoost
-- NLP (NLTK / spaCy)
-- Pandas, NumPy
+-  Language: Python
+- Libraries:Pandas,NumPy
 - Development Environment:Cursor
+## 🧠 NLP Techniques Used
 
-  ## 👥 User Roles
+- Text Extraction  
+- Tokenization  
+- Stopword Removal  
+- Lemmatization  
+- TF-IDF / Similarity Matching
+## 📁 Project Structure
+
+- frontend/ → React JS code  
+- backend/ → Node JS APIs  
+- models/ → NLP models  
+- dataset/ → Data used  
+- screenshots/ → Project images
+## ⚙️ Installation & Setup
+
+### Step 1: Install Required Software
+➡️ Make sure these are installed in your system:
+- Node.js  
+- Python  
+- Java & Maven  
+- Git  
+- Antigravity
+### Step 2: Clone the Repository
+➡️ Open terminal and run:
+git clone https://github.com/sailu167/resume-screening-system-nlp.git
+cd resume-screening-system-nlp
+### Step 3: Setup Backend
+➡️ Go to backend folder:
+cd backend
+➡️ Install dependencies:
+npm install
+### Step 4: Setup Frontend
+➡️ Open new terminal and run:
+cd frontend
+➡️ Install dependencies:
+npm install
+### Step 5: Setup ML Service
+➡️ Open new terminal and run:
+cd ml-service
+➡️ Install Python packages:
+pip install -r requirements.txt
+### Step 6: Setup Antigravity Service
+➡️ Open new terminal and run:
+Bash
+cd antigravity-service
+➡️ Build project:
+Bash
+mvn clean install
+## 👥 User Roles
 
 ### 👤 Candidate
 - Register & Login  
@@ -39,26 +85,7 @@ This project is developed to automate the resume screening process using Natural
 - Manage Users  
 - Monitor System  
 - Control Data
-- 
-## 👨‍💻 Project Team
-- Project Lead:Bhatraju Sailu
-- Role:Project Lead handling Frontend (React JS), Backend (Node JS), Database (PostgreSQL), and NLP-based resume analysis
-### 🔹 Responsibilities
-- Lead the overall development of the Resume Screening System  
-- Designed and developed frontend using React JS  
-- Implemented backend APIs using Node JS  
-- Integrated PostgreSQL database for data storage  
-- Applied NLP techniques for resume parsing and skill extraction  
-- Developed resume-job matching and ranking logic  
-- Managed project workflow and coordinated with team members
-  
-# 📂 Project Structure
-- frontend/
-- backend/
-- dataset/
-- ml service
-- model/
-- app.py
+
 ## System Modules
 - Resume Parser
 - NLP Matching Engine
@@ -73,17 +100,23 @@ This project is developed to automate the resume screening process using Natural
 3. System compares with job description  
 4. Matching score is generated  
 5. Candidates are ranked
-
-## ▶️How to Run
-1. Install dependencies
-- pip install -r requirements.txt
-2. Run the project:
-- Run backend
-- Run Frontend
-- Run ml-service
-- python app.py
-- Open frontend and upload resume
-3. Upload resume and view results
+# 🔷 ▶️ How to Run the Project
+### Step 1: Start Backend
+➡️ Open terminal:
+cd backend
+npm run dev
+### Step 2: Start Frontend
+➡️ Open new terminal:
+cd frontend
+npm start
+### Step 3: Start ML Service
+➡️ Open new terminal:
+cd ml-service
+python app.py
+### Step 4: Open Application
+➡️ Open browser and go to: 👉 http://localhost:3000⁠
+### Step 5: Open frontend
+➡️ Upload resume and view results
 
 ## 🎯 Future Scope
 - Improve accuracy using Machine Learning models  
@@ -112,19 +145,34 @@ The Candidate module allows job seekers to interact with the system and apply fo
 Candidates can upload their resumes, and the system analyzes the content using NLP techniques to extract skills, education, and experience. Based on this data, the system matches candidates with suitable job roles and generates an ATS score.
 
 ## 📸 Screenshots
-### 1.Candidate Login
+### 👤 Candidate Login
+
+The Candidate Login page allows users to securely access their account using credentials. It ensures authentication before accessing the system.
+
  ![Login](Candidate/login.png)
 
- ## 2.Candidate Dashboard
+### 📊 Candidate Dashboard
+
+The dashboard provides an overview of candidate activity, including job matches, application status, and profile details in a user-friendly interface.
+
 ![Dashboard](Candidate/dashboard.png)
 
-## 3.Candidate Jobs
+### 💼 Job Listings
+
+This page displays available job opportunities. Candidates can view job descriptions and find relevant matches based on their skills.
+
 ![Jobs](Candidate/jobs.png)
 
-## 4.Candidate Resumes
+### 📄 Resume Upload
+
+Candidates can upload their resumes in this section. The system uses NLP techniques to extract skills and relevant information from the resume.
+
 ![Resume](Candidate/resume.png)
 
-## 5.Candidate Applications
+### 📑 Applications
+
+This page shows the list of jobs the candidate has applied for, along with application status and progress tracking.
+
 ![Applications](Candidate/applications.png)
 
 🔰 ✅ Recruiter Login Module
@@ -145,21 +193,38 @@ The Recruiter module enables employers to manage job postings and screen candida
 Recruiters can post job requirements and view candidate applications. The system uses Machine Learning and NLP to rank candidates based on their resumes. Recruiters can easily identify top candidates using ATS scores and filtering options.
 
 Markdown
-## Recruiter Login
+## 🧑‍💼 Recruiter Login
 
-## 1.Recruiter Dashboard
+The Recruiter Login allows recruiters to securely access the system and manage the hiring process efficiently.
+
+### 📊 Recruiter Dashboard
+
+The dashboard provides an overview of recruitment activities, including posted jobs, candidate matches, and overall system insights in a centralized view.
+
 ![Recruiter Dashboard](Recruiter/Recruiterdashboard.png)
 
-## 2.Recruiter Job Postings
- ![Job Posting](Recruiter/Jobposting.png)
+### 💼 Job Posting
 
-## 3.Resumes
- ![All Resumes](Recruiter/AllResumes.png)
+This page enables recruiters to create and publish job requirements. It allows specifying skills, experience, and job descriptions for better candidate matching.
 
-## 4.Ranking
+![Job Posting](Recruiter/Jobposting.png)
+
+### 📄 All Resumes
+
+This section displays all uploaded resumes. Recruiters can review candidate profiles and filter resumes based on job requirements.
+
+![All Resumes](Recruiter/AllResumes.png)
+
+### 📈 Ranking
+
+The system ranks candidates based on their resume relevance and skill matching using NLP techniques, helping recruiters identify the best candidates quickly.
+
 ![Ranking](Recruiter/Ranking.png)
 
-## 5.Analytics
+### 📊 Analytics
+
+This page provides insights and statistics related to recruitment, such as candidate performance, job trends, and matching accuracy.
+
 ![Analytics](Recruiter/Analytics.png)
 
 🔰 ✅ Admin Login Module
@@ -179,20 +244,39 @@ The Admin module provides full control over the system for managing users and sy
 The admin oversees the entire system, manages users, monitors performance, and updates machine learning models. The admin ensures smooth functioning of the resume screening process and system security.
 
 Markdown
-## Admin Login
-## 1.Admin Login Page
+Markdown
+## 🛡️ Admin Login
+
+The Admin Login provides secure access to system-level controls and management features. It allows administrators to monitor and maintain the overall application.
+
+### 🔐 Admin Login Page
+
+This page ensures secure authentication for administrators before accessing sensitive system functionalities.
+
 ![Admin Login](Admin/Adminloginpage.png)
 
-## 2.Admin Dashboard
+### 📊 Admin Dashboard
+
+The dashboard gives a complete overview of system performance, user activity, and key metrics in a centralized interface.
+
 ![Admin Dashboard](Admin/Admindashboard.png)
 
-## 3.User Management
+### 👥 User Management
+
+This page enables the admin to manage users (candidates and recruiters), including adding, updating, and removing accounts.
+
 ![User Management](Admin/Usermanagement.png)
 
-## 4.Model Management
+### 🤖 Model Management
+
+This section allows the admin to manage and update NLP models used for resume parsing and candidate ranking, improving system accuracy.
+
 ![Model Management](Admin/Modelmanagement.png)
 
-## 5.System analytics
+### 📈 System Analytics
+
+Provides detailed insights into system usage, performance, and recruitment trends to support data-driven decisions.
+
 ![System Analytics](Admin/Systemanalytics.png)
 
 Markdown
@@ -207,15 +291,28 @@ The system uses Natural Language Processing (NLP) and Machine Learning algorithm
 - AI-based recommendation system
 - Real-time job matching
 - Web deployment
- ## License
-- ![Uploading Screenshot 2026-05-02 170113.png…](image15.png)
-- ![Uploading Screenshot 2026-05-02 172013.png…](image16.png)
-- ![Uploading Screenshot 2026-05-02 172101.png…](image17.png)
-- ![Uploading Screenshot 2026-05-02 172137.png…](image18.png)
-- ![Uploading Screenshot 2026-05-02 172213.png…](image19.png)
-- ![Uploading Screenshot 2026-05-02 172306.png…](image20.png)
-- ![Uploading Screenshot 2026-05-02 172338.png…](image21.png)
-- ![Uploading Screenshot 2026-05-02 172412.png…](image22.png)
-MIT License
-## 👨‍💻 Project Lead: Bhatraju sailu
-Developed a Resume Screening System using NLP (Data Science Domain)
+## 👨‍💻 Project Team
+
+- Project Lead:Bhatraju Sailu
+- Developed a Resume Screening System using NLP (Data Science Domain)
+## Role:
+- Project Lead handling Frontend (React JS), Backend (Node JS), Database (PostgreSQL), and NLP-based resume analysis
+### 🔹 Responsibilities
+- Lead the overall development of the Resume Screening System  
+- Designed and developed frontend using React JS  
+- Implemented backend APIs using Node JS  
+- Integrated PostgreSQL database for data storage  
+- Applied NLP techniques for resume parsing and skill extraction  
+- Developed resume-job matching and ranking logic
+- Managed project workflow and coordinated with team members
+ ## 🏆 Achievements
+- Successfully developed as final year project  
+- Demonstrates real-world NLP application
+Markdown
+## 📄 License
+This project is licensed under the MIT License. 
+## 📬 Contact
+
+- Name :  BHATRAJU SAILU  
+- Email: sailubhatraju3@gmail.com
+- GitHub: https://github.com/sailu167⁠
