@@ -47,51 +47,106 @@ Developed an automated Resume Screening System using NLP and Machine Learning to
 - Ranking Score (0–100)
 - Candidate Tier (Standard / Competitive / Premium)
 ## 📸 Screenshots
-### Candidate Login
+### 1.Candidate Login
  ![Login](Candidate/login.png)
 
-- ## Candidate Dashboard
+ ## 2.Candidate Dashboard
 ![Dashboard](Candidate/dashboard.png)
 
-- ## Candidate Job Postings
+## 3.Candidate Jobs
 ![Jobs](Candidate/jobs.png)
-- ## Candidate Resumes
+
+## 4.Candidate Resumes
 ![Resume](Candidate/resume.png)
-- ## Candidate Applications
+
+## 5.Candidate Applications
 ![Applications](Candidate/applications.png)
+🔰 ✅ Candidate Login Module
+Markdown
+## 👤 Candidate Module
+
+The Candidate module allows job seekers to interact with the system and apply for jobs efficiently.
+
+### Features:
+- User Registration and Login
+- Resume Upload (PDF/DOC format)
+- Automatic Resume Parsing using NLP
+- Skill Extraction and Matching
+- Job Search and Application
+- View Applied Jobs and Status
+
+### Functionality:
+Candidates can upload their resumes, and the system analyzes the content using NLP techniques to extract skills, education, and experience. Based on this data, the system matches candidates with suitable job roles and generates an ATS score.
 Markdown
 ## Recruiter Login
-- ## Recruiter Dashboard
+
+## 1.Recruiter Dashboard
 ![Recruiter Dashboard](Recruiter/Recruiterdashboard.png)
 
-- ## Recruiter Jobs
+## 2.Recruiter Job Postings
  ![Job Posting](Recruiter/Jobposting.png)
 
-- ## Resumes
+## 3.Resumes
  ![All Resumes](Recruiter/AllResumes.png)
 
-- ## Ranking
+## 4.Ranking
 ![Ranking](Recruiter/Ranking.png)
 
-- ## Analytics
+## 5.Analytics
 ![Analytics](Recruiter/Analytics.png)
+🔰 ✅ Recruiter Login Module
+Markdown
+## 🧑‍💼 Recruiter Module
+
+The Recruiter module enables employers to manage job postings and screen candidates effectively.
+
+### Features:
+- Recruiter Login and Dashboard
+- Job Posting and Management
+- View Uploaded Resumes
+- Candidate Ranking based on ATS Score
+- Shortlisting Candidates
+- Analytics Dashboard
+
+### Functionality:
+Recruiters can post job requirements and view candidate applications. The system uses Machine Learning and NLP to rank candidates based on their resumes. Recruiters can easily identify top candidates using ATS scores and filtering options.
 
 Markdown
 ## Admin Login
-- ## Admin Login Page
+## 1.Admin Login Page
 ![Admin Login](Admin/Adminloginpage.png)
 
-- ## Admin Dashboard
+## 2.Admin Dashboard
 ![Admin Dashboard](Admin/Admindashboard.png)
 
-- ## User Management
+## 3.User Management
 ![User Management](Admin/Usermanagement.png)
 
-- ## Model Management
+## 4.Model Management
 ![Model Management](Admin/Modelmanagement.png)
 
-- ## System analytics
+## 5.System analytics
 ![System Analytics](Admin/Systemanalytics.png)
+🔰 ✅ Admin Login Module
+Markdown
+## 🛠️ Admin Module
+
+The Admin module provides full control over the system for managing users and system operations.
+
+### Features:
+- Admin Login and Dashboard
+- User Management (Candidates & Recruiters)
+- Model Management (ML Models)
+- System Analytics and Reports
+- Database Monitoring
+
+### Functionality:
+The admin oversees the entire system, manages users, monitors performance, and updates machine learning models. The admin ensures smooth functioning of the resume screening process and system security.
+
+Markdown
+## 🔍 Core Technology
+
+The system uses Natural Language Processing (NLP) and Machine Learning algorithms such as TF-IDF and XGBoost to analyze resumes and generate ATS scores for candidate ranking.
 
 ## 📚 Future Enhancements
 - AI-based recommendation system
